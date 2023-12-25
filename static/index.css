@@ -1,9 +1,9 @@
 body {
   background: linear-gradient(#141e30, #243b55);
   color: white;
+  font-family: "Poppins", sans-serif;
 }
 .title {
-  font-family: "Poppins", sans-serif;
   text-align: center;
   font-size: 60px;
   margin-top: 20px;
