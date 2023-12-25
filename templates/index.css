@@ -1,0 +1,154 @@
+body {
+  background: linear-gradient(#141e30, #243b55);
+  color: white;
+}
+.title {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  font-size: 60px;
+  margin-top: 20px;
+  line-height: 70px;
+  margin-bottom: 30;
+}
+
+.container {
+  width: 800px;
+  background-color: #141e30;
+  border-radius: 10px;
+  margin: auto;
+  position: relative;
+}
+
+.first-container {
+  height: 300px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 40px;
+}
+.first-div {
+  display: flex;
+  gap: 25px;
+}
+.second-div {
+  display: flex;
+  gap: 25px;
+}
+.third-div {
+  display: flex;
+  gap: 25px;
+}
+.fourth-div {
+  display: flex;
+  gap: 25px;
+}
+.gender {
+  border-radius: 10px;
+  padding: 15px 92px 15px 2px;
+  border: none;
+  font-size: 15px;
+}
+
+.ethnicity {
+  border-radius: 10px;
+  padding: 15px 92px 15px 2px;
+  border: none;
+  font-size: 15px;
+}
+
+.parent-education {
+  border-radius: 10px;
+  padding: 15px 60px 15px 2px;
+  border: none;
+  font-size: 15px;
+}
+.lunch {
+  border-radius: 10px;
+  padding: 15px 70px 15px 2px;
+  border: none;
+  font-size: 15px;
+}
+.test-course {
+  border-radius: 10px;
+  padding: 15px 20px 15px 2px;
+  border: none;
+  font-size: 15px;
+}
+
+.reading-score {
+  border-radius: 10px;
+  padding: 15px 30px 15px 4px;
+  border: none;
+  font-size: 15px;
+}
+.writing-score {
+  border-radius: 10px;
+  padding: 15px 60px 15px 4px;
+  border: none;
+  font-size: 15px;
+}
+
+.writing-score::placeholder,
+.reading-score::placeholder {
+  color: black;
+  text-align: center;
+}
+.predict-button {
+  border-radius: 10px;
+  padding: 15px 30px 15px 6px;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+  background-color: rgb(2, 137, 174);
+  font-weight: 700;
+}
+
+.second-container {
+  margin: 40px;
+  display: inline-block;
+  position: absolute;
+  width: 200px;
+  height: 80px;
+  bottom: 50px;
+  right: -10px;
+  background-color: lightyellow;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  color: black;
+  font-family: "Ubuntu-Italic", "Lucida Sans", helvetica, sans;
+}
+
+.second-container::before {
+  content: " ";
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: -8px;
+  right: auto;
+  top: auto;
+  bottom: -40px;
+  border: 1px solid;
+  border-color: transparent transparent transparent #666;
+}
+
+.second-container::after {
+  content: " ";
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: 0px;
+  right: auto;
+  top: auto;
+  bottom: -20px;
+  border: 22px solid;
+  border-color: transparent transparent transparent lightyellow;
+}
+
+.second-container > p {
+  padding: 1em;
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
+  font-size: 15px;
+}
