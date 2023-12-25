@@ -104,6 +104,14 @@ body {
   font-weight: 700;
 }
 
+.predict-button:hover {
+  background-color: rgb(3, 150, 190);
+}
+
+.predict-button:active {
+  transform: translateY(3px);
+}
+
 .second-container {
   margin: 40px;
   display: inline-block;
