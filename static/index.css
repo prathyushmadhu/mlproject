@@ -27,22 +27,14 @@ body {
   gap: 30px;
   padding: 40px;
 }
-.first-div {
-  display: flex;
-  gap: 25px;
-}
-.second-div {
-  display: flex;
-  gap: 25px;
-}
-.third-div {
-  display: flex;
-  gap: 25px;
-}
+.first-div,
+.second-div,
+.third-div,
 .fourth-div {
   display: flex;
   gap: 25px;
 }
+
 .gender {
   border-radius: 10px;
   padding: 15px 92px 15px 2px;
