@@ -1,5 +1,6 @@
 import os
 import sys
+sys.path.append('/home/prathyush/Desktop/mlproject')
 from src.exception import CustomException
 from src.logger import logging
 import pandas as pd
@@ -29,7 +30,7 @@ class DataIngestion:
         logging.info("Entered the data ingestion method or component")
         try:
 
-            df = pd.read_csv('notebook\data\StudentsPerformance.csv')
+            df = pd.read_csv('notebook/data/StudentsPerformance.csv')
             logging.info("Read the dataset as dataframe.")
 
             os.makedirs(os.path.dirname(self.ingestion_config.train_data_path), exist_ok=True)
